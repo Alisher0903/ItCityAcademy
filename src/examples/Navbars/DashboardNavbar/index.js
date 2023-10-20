@@ -113,6 +113,7 @@ function DashboardNavbar({ absolute, light, isMini }) {
               <Link to="/authentication/sign-in/basic">
                 <IconButton sx={navbarIconButton} size="small" disableRipple>
                   <Icon sx={iconsStyle}>account_circle</Icon>
+                  {/* <img src="https://cdn-icons-png.flaticon.com/512/1160/1160358.png" alt="img" /> */}
                 </IconButton>
               </Link>
               <IconButton
